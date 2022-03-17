@@ -21,4 +21,9 @@ export class LikeWidgetComponent{
       this.id = this.uniqueServiceId.generateUniqueIdWithPrefix('like-widget');
     }
   }
+
+  public like(): void
+  {
+    this.liked.emit();
+  }
 }
