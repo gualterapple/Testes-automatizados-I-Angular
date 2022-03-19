@@ -36,4 +36,12 @@ describe(LikeWidgetComponent.name,() => {
     expect(component.id).toBe(someId);
   });
 
+  it(`${LikeWidgetComponent.prototype.like.name}
+  Should trigger emission when called`, () => {
+    spyOn(component.liked,'emit');
+    fixture.detectChanges();
+    component.like();
+    expect(component.liked.emit).toHaveBeenCalled();
+  });
+
 });
