@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 99.0.4844.74 (Mac OS 10.15.7)" package="" timestamp="2022-03-20T03:55:29" id="0" hostname="gualter.home" tests="8" errors="0" failures="0" time="0.106">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/99.0.4844.74 Safari/537.36"/>
+  </properties>
+  <testcase name="LikeWidgetComponent #like&#xA;  Should trigger (@Output liked) when called" time="0.083" classname="Chrome_Headless_99_0_4844_74_(Mac_OS_10_15_7).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent Should NOT auto-generate ID during ngOnInit when (@Input id) is assigned" time="0.009" classname="Chrome_Headless_99_0_4844_74_(Mac_OS_10_15_7).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent Should create component" time="0.005" classname="Chrome_Headless_99_0_4844_74_(Mac_OS_10_15_7).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent Should auto-generate ID during ngOnInit when (@Input io) is not assigned" time="0.006" classname="Chrome_Headless_99_0_4844_74_(Mac_OS_10_15_7).LikeWidgetComponent"/>
+  <testcase name="UniqueIdService #generateUniqueIdWithPrefix should generate id when called with prefix" time="0.001" classname="Chrome_Headless_99_0_4844_74_(Mac_OS_10_15_7).UniqueIdService"/>
+  <testcase name="UniqueIdService #generateUniqueIdWithPrefix should not generate ids when called multiple times" time="0" classname="Chrome_Headless_99_0_4844_74_(Mac_OS_10_15_7).UniqueIdService"/>
+  <testcase name="UniqueIdService #generateUniqueIdWithPrefix&#xA;  should throw when called with empty" time="0.001" classname="Chrome_Headless_99_0_4844_74_(Mac_OS_10_15_7).UniqueIdService"/>
+  <testcase name="UniqueIdService #getNumberOfGeneratedIds should return the number of generatedId when called" time="0.001" classname="Chrome_Headless_99_0_4844_74_(Mac_OS_10_15_7).UniqueIdService"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
