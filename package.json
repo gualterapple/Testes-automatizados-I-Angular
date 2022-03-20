@@ -10,6 +10,7 @@
         "test-safari": "ng test --browsers Safari",
         "test-ci": "ng test --watch=false --reporters junit --browsers ChromeHeadless,FirefoxSemCabeca",
         "test-ci-firefox": "ng test --watch=false --browsers FirefoxHeadless",
+        "test-coverage": "ng test --watch=false --sourceMap=true --codeCoverage=true --browsers ChromeHeadless",
         "lint": "ng lint",
         "e2e": "ng e2e"
     },
